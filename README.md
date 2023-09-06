@@ -1,0 +1,2 @@
+# cafeterias
+Inventario de cafeterias
