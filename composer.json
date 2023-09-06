@@ -1,0 +1,20 @@
+{
+    "name": "vendor/project-name",
+    "description": "Inventario para cafeterias",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Alvarez Barona",
+            "email": "alvarezbaronasebastian@hotmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^2.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "inventarios\\":"functions/"
+        }
+    }
+}
